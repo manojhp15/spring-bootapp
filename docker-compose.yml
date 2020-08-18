@@ -5,14 +5,8 @@ mysql:
   environment:
     - MYSQL_ROOT_PASSWORD=
     - MYSQL_ALLOW_EMPTY_PASSWORD=true
-<<<<<<< HEAD
-    - MYSQL_USER=master
-    - MYSQL_PASSWORD=master_pass
-    - MYSQL_DATABASE=petclinic
-=======
     - MYSQL_USER=feat_2
     - MYSQL_PASSWORD=feat_2_pass
     - MYSQL_DATABASE=feat_2_db
->>>>>>> feat_2
   volumes:
     - "./conf.d:/etc/mysql/conf.d:ro"
